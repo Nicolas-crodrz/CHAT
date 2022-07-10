@@ -1,0 +1,78 @@
+<!-- Nicolas Cabrera Rodriguez -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="#">
+  <script src="https://kit.fontawesome.com/dd61782a11.js" crossorigin="anonymous"></script>
+  <title>chat</title>
+</head>
+
+<body id="body">
+  <!-- * GIFS ANIMADOS -->
+
+  <div id="toasty0">
+    <img id="toasty1" src="./img/toasty.gif" alt="">
+  </div>
+
+  <div id="cena">
+    <img id="cena_1" src="./img/john.gif" alt="">
+  </div>
+
+  <div id="snoop">
+    <img id="snoop_1" src="./img/snoop.gif" alt="">
+    <img id="snoop_2" src="./img/snoop.gif" alt="">
+    <img id="snoop_3"src="./img/snoop.gif" alt="">
+    <img id="snoop_4"src="./img/snoop.gif" alt="">
+    <img id="snoop_5"src="./img/snoop.gif" alt="">
+  </div>
+
+  <!-- * SALAS -->
+  <div id="room">
+    <input id="inputSala" autocomplete="off" placeholder="Escribe tu sala" />
+    <button id="entrarSala" >entrar en la sala</button>
+
+  </div>
+
+<!-- * LOGIN -->
+    <div id="login">
+      <div id="str"></div>
+      <button id="entrar" class="botonlogin">entrar</button>
+    </div>
+
+<!-- * CHAT -->
+<main id="app">
+
+  <div id="feedback"></div>
+  <!-- * Lista -->
+  <div id="div-lista">
+    <ul id="ul-lista"></ul>
+  </div>
+
+  <!-- * Mensajes -->
+  <ul id="mensaje"></ul>
+
+  <form id="cajaMensajes" action=""  onsubmit="">
+
+    <input id="input" autocomplete="off" placeholder="Escribe tu mensaje..." />
+
+     <button id="enviar"> <i class="send-ico fas fa-paper-plane"></i> </button> <!-- * Boton que envia el mensaje-->
+     
+    <button id="timbre"><i class="sonido-ico fas fa-volume-down"></i></button> <!-- * Boton que envia un sonido-->
+    
+  </form>
+
+</main>
+
+
+
+  <!-- * FRONT AND BACK -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script type="text/javascript" src="js/client.js"></script>
+</body>
+
+</html>
