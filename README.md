@@ -47,7 +47,7 @@ Para usar este proyecto tienes que instalar todos los modulos, arrancarlo y entr
 
 #### JUNTO
 
-- npm i node socket.io express --save-dev nodemon
+- npm i node.js socket.io express --save-dev nodemon
 
 ## 🔧 Desarrollo
 
