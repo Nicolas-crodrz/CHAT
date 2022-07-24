@@ -26,7 +26,7 @@ Es un chat en el que se pueden unir usuarios y mandar mensajes entre ellos.
 
 ## ⚡ Uso
 
-Para usar este proyecto tienes que instalar todos los modulos, arrancarlo y entrar por el puerto 3000.(En caso de que este ocupado entrara por otro puerto, revisa la terminal de tu editor de codigo).
+Para usar este proyecto tienes que instalar todos los modulos, arrancarlo y entrar por el puerto 3000.(En caso de que este ocupado entrara por otro puerto, revisa la terminal de tu editor de codigo). 
 
 ### 🔌 Instalación
 
