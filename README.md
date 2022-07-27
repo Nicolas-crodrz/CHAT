@@ -22,7 +22,7 @@
 
 ## 🔰 Acerca de
 
-Es un chat en el que se pueden unir usuarios y mandar mensajes entre ellos.
+Es un chat en el que se pueden unir usuarios y mandar mensajes entre ellos. 
 
 ## ⚡ Uso
 
